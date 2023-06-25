@@ -138,6 +138,11 @@ h3 {
     margin-top: 0;
 }
 
+.about_page .li{
+    margin: 0 20%;
+    text-align: center;
+}
+
 .button {
     border: none;
     font-family: inherit;

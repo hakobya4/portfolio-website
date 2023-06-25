@@ -145,6 +145,11 @@ h3 {
     margin-top: 0;
 }
 
+.about_page li{
+    margin: 0 20%;
+    text-align: var(--text-align);
+}
+
 .button {
     border: var(--border_none);
     font-family: var(--font-family);
