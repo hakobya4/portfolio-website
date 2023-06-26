@@ -222,10 +222,9 @@ h3 {
     position: sticky;
     bottom: 20px;      
     margin-right: 10px;
-    -ms-grid-row-align: end;
-    -ms-grid-column-align: end;
-    place-self: end;
+    text-align: center;
     text-decoration: none;
+    margin-left: 80%;
     padding: 10px;
     font-family: sans-serif;
     color: rgb(255, 255, 255);
