@@ -45,7 +45,7 @@ header {
         -ms-flex-align: center;
             align-items: center;
     margin-bottom: auto;
-    height: 600px;
+    height: 700px;
 }
 
 .home_title{
@@ -249,13 +249,6 @@ h3 {
     display: block;
 }
 
-footer {
-    border-top: solid 2px rgb(0, 99, 117);
-    background-color: rgb(255, 255, 255);
-    position: inline-block;
-    bottom:0
-}
-
 .page_footer {
     clear:both;
     display: -webkit-box;
@@ -266,6 +259,10 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
+    border-top: solid 2px rgb(0, 99, 117);
+    background-color: rgb(255, 255, 255);
+    position: inline-block;
+    bottom:0;
 }
 
 footer a {
