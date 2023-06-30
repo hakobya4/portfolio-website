@@ -333,12 +333,9 @@ footer a {
             flex-direction: column;
     text-align: left;
     margin-left: 5%;
-<<<<<<< Updated upstream
-=======
     height: 800px;
->>>>>>> Stashed changes
     color: rgb(0, 99, 117);
-    height: 1000px;
+    height: 800px;
 }
 
 form{
