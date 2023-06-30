@@ -249,23 +249,20 @@ h3 {
     display: block;
 }
 
-footer {
-    border-top: solid 2px rgb(0, 99, 117);
-    background-color: rgb(255, 255, 255);
-    position: inline-block;
-    bottom:0
-}
+
 
 .page_footer {
     clear:both;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: sticky;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
+    bottom:0;
+    border-top: solid 2px rgb(0, 99, 117);
+    background-color: rgb(255, 255, 255);
+    position: inline-block;
 }
 
 footer a {
