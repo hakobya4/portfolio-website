@@ -333,6 +333,7 @@ footer a {
             flex-direction: column;
     text-align: left;
     margin-left: 5%;
+    height: 800px;
     color: rgb(0, 99, 117);
 }
 
