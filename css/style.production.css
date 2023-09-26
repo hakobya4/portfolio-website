@@ -45,7 +45,7 @@ header {
         -ms-flex-align: center;
             align-items: center;
     margin-bottom: auto;
-    height: 800px;
+    height: 1000px;
 }
 
 .home_title{
@@ -249,20 +249,20 @@ h3 {
     display: block;
 }
 
-
-
 .page_footer {
     clear:both;
-    display: sticky;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
-    bottom:0;
     border-top: solid 2px rgb(0, 99, 117);
     background-color: rgb(255, 255, 255);
     position: inline-block;
+    bottom:0;
 }
 
 footer a {
@@ -466,6 +466,29 @@ thead{
 #about-picture{
     max-width:600px
 }
+.gridimg{
+  height: auto; 
+  max-width: 100%;
+  border: solid 4px rgb(210,175,255);
+}
+.modal-header{
+    background-color: rgb(230,215,255);
+}
+.modal-footer{
+    background-color: rgb(230,215,255);
+    margin-top: auto;
+}
+.Closeto{
+    background-color: rgb(0, 99, 117);
+    color: white;
+}
+.Goto{
+    background-color: rgb(8, 159, 159);
+    color: white;
+}
+.close{
+    padding-right: 10px;
+}
    
 @supports (display: grid) {
     .grid {
@@ -554,7 +577,8 @@ thead{
     }
 }
 
-@media all and (max-width: 982px){
+
+@media all and (max-width: 1000){
     @media all and (max-width: 476px) {
         .profile {
             display: -webkit-box;
