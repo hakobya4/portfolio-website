@@ -507,3 +507,7 @@ thead{
 .sun {
     animation: color-change var(--animation);
 }
+
+.worklink:hover{
+    color: white;
+}
