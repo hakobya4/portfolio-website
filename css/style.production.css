@@ -58,7 +58,7 @@ header {
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: auto;
-  height: 1000px;
+  height: 600px;
 }
 
 .home_title {
@@ -272,10 +272,6 @@ h3 {
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  border-top: solid 2px rgb(0, 99, 117);
-  background-color: rgb(255, 255, 255);
-  position: inline-block;
-  bottom: 0;
 }
 
 footer a {
@@ -346,7 +342,6 @@ footer a {
   flex-direction: column;
   text-align: left;
   margin-left: 5%;
-  height: 300px;
   color: rgb(0, 99, 117);
 }
 
@@ -619,7 +614,7 @@ thead {
   }
 }
 
-@media all and (max-width: 1000) {
+@media all and (max-width: 982px) {
   @media all and (max-width: 476px) {
     .profile {
       display: -webkit-box;
