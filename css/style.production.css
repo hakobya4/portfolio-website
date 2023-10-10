@@ -635,6 +635,7 @@ thead {
   .portrait {
     margin-right: none;
     width: 100%;
+    margin-bottom: 30px;
   }
 }
 @media all and (max-width: 982px) {
