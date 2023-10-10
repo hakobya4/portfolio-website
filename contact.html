@@ -77,53 +77,10 @@
         >
         <a href="mailto:narek.hakobyan@mail.utoronto.ca">Contact Me</a>
       </div>
-      <form
-        action="#"
-        name-="email"
-        method="post"
-        class="contact_me"
-        id="form_id"
-      >
-        <br />
-        <label for="contact-email" class="standard-label">E-mail:</label>
-        <br />
-        <input
-          type="text"
-          id="contact-email"
-          name="email"
-          placeholder="Your email.."
-          required
-        />
-        <br />
-        <label for="contact-telephone" name-="tel" class="standard-label"
-          >Telephone:</label
-        >
-        <br />
-        <input
-          type="text"
-          id="contact-telephone"
-          name="telephone"
-          placeholder="Your telephone.."
-          pattern="\d{3}[\-]\d{3}[\-]\d{4}"
-        />
-        <br />
-        <label for="contact-message" name="message" class="standard-label"
-          >Message:</label
-        >
-        <br />
-        <textarea
-          type="text"
-          id="contact-message"
-          name="message"
-          required
-          maxlength="240"
-          placeholder="Your message.."
-        ></textarea>
-        <br />
-        <button class="button_contact" id="submit" type="submit" value="Submit">
-          Send Message
-        </button>
-      </form>
+      <div
+        id="formkeep-embed"
+        data-formkeep-url="https://formkeep.com/p/72a01ffb7dcc9ead081961d2885cc806?embedded=1"
+      ></div>
     </div>
     <footer class="page_footer">
       <p>Find me on</p>
@@ -142,15 +99,27 @@
     </footer>
     <script src="js/tota11y.min.js"></script>
     <script src="prototype/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="https://static.formx.stream/tracker/v1/bundle.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://pym.nprapps.org/pym.v1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"
+    ></script>
+
+    <!-- Get notified when the form is submitted, add your own code below: -->
     <script>
-      var formx = FormX.set();
-      formx.trackProject("Portfilio_abd661cd-a2ea-4993-a839-4473edfab8c9");
-      formx.trackForm(
-        "contact-form_b5ec836f-95ed-4b64-9d45-a9adbed0acbc",
-        "form_id"
-      );
-      formx.start();
+      const formkeepEmbed = document.querySelector("#formkeep-embed");
+
+      formkeepEmbed.addEventListener("formkeep-embed:submitting", (_event) => {
+        console.log("Submitting form...");
+      });
+
+      formkeepEmbed.addEventListener("formkeep-embed:submitted", (_event) => {
+        console.log("Submitted form...");
+      });
     </script>
   </body>
 </html>
