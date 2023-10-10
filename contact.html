@@ -77,7 +77,13 @@
         >
         <a href="mailto:narek.hakobyan@mail.utoronto.ca">Contact Me</a>
       </div>
-      <form action="#" method="post" class="contact_me" id="form_id">
+      <form
+        action="#"
+        name-="email"
+        method="post"
+        class="contact_me"
+        id="form_id"
+      >
         <br />
         <label for="contact-email" class="standard-label">E-mail:</label>
         <br />
@@ -89,7 +95,9 @@
           required
         />
         <br />
-        <label for="contact-telephone" class="standard-label">Telephone:</label>
+        <label for="contact-telephone" name-="tel" class="standard-label"
+          >Telephone:</label
+        >
         <br />
         <input
           type="text"
@@ -99,7 +107,9 @@
           pattern="\d{3}[\-]\d{3}[\-]\d{4}"
         />
         <br />
-        <label for="contact-message" class="standard-label">Message:</label>
+        <label for="contact-message" name="message" class="standard-label"
+          >Message:</label
+        >
         <br />
         <textarea
           type="text"
@@ -110,7 +120,7 @@
           placeholder="Your message.."
         ></textarea>
         <br />
-        <button class="button_contact" type="submit" value="Submit">
+        <button class="button_contact" id="submit" type="submit" value="Submit">
           Send Message
         </button>
       </form>
