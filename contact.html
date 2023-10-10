@@ -77,7 +77,7 @@
         >
         <a href="mailto:narek.hakobyan@mail.utoronto.ca">Contact Me</a>
       </div>
-      <form action="#" method="post" class="contact_me" id="contact-form">
+      <form action="#" method="post" class="contact_me" id="form_id">
         <br />
         <label for="contact-email" class="standard-label">E-mail:</label>
         <br />
@@ -132,5 +132,15 @@
     </footer>
     <script src="js/tota11y.min.js"></script>
     <script src="prototype/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://static.formx.stream/tracker/v1/bundle.js"></script>
+    <script>
+      var formx = FormX.set();
+      formx.trackProject("Portfilio_abd661cd-a2ea-4993-a839-4473edfab8c9");
+      formx.trackForm(
+        "contact-form_b5ec836f-95ed-4b64-9d45-a9adbed0acbc",
+        "form_id"
+      );
+      formx.start();
+    </script>
   </body>
 </html>
