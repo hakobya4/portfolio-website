@@ -632,6 +632,9 @@ thead {
     -ms-flex-align: center;
     align-items: center;
   }
+  .portrait {
+    margin-right: 0px;
+  }
 }
 @media all and (max-width: 982px) {
   .grid {
