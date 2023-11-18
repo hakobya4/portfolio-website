@@ -462,19 +462,6 @@ thead {
   color: rgb(255, 255, 255);
 }
 
-.toronto_skyline {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 5% 0;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
 #about-picture {
   max-width: 600px;
 }
@@ -503,6 +490,51 @@ thead {
   background-color: rgb(255, 165, 0);
 }
 
+#Atom {
+  animation: atom 4s linear infinite;
+  transform-origin: center;
+}
+#seeds-cuc {
+  animation: atom 4s ease infinite;
+  transform-origin: center;
+}
+
+@keyframes atom {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+#fb1 {
+  animation: fb 4s ease-in-out;
+}
+#fv2 {
+  animation: fb 4s ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes fb {
+  from {
+    transform: rotateZ(40deg);
+  }
+  to {
+    transform: rotateZ(0deg);
+  }
+}
+#arrow {
+  animation: arrow 4s;
+}
+
+@keyframes arrow {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
 @supports (display: grid) {
   .grid {
     display: -ms-grid;
