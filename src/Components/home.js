@@ -1,6 +1,7 @@
 import rocket from "../images/rocket-spaceship.png";
 import Ticker from "framer-motion-ticker";
 import tickerImages from "./tickerImages";
+import Resume from "../files/Resume.pdf";
 function Home() {
   return (
     <>
@@ -12,10 +13,16 @@ function Home() {
           backgroundPositionY: "75%",
           backgroundPositionX: "50%",
           backgroundRepeat: "no-repeat",
+          display: "flex",
+          flexDirection: "column",
         }}
         id="home"
       >
         Hello, my name is Narek
+        <a href={Resume} className="button" download>
+          {" "}
+          Download my CV{" "}
+        </a>
       </h1>
       <div>
         <Ticker duration={20}>
