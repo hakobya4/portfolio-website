@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de27e1b9.css",
+    "main.js": "/static/js/main.7dfab7dc.js",
+    "static/media/Fave2.png": "/static/media/Fave2.82b0d9e40d2c25f0034d.png",
+    "static/media/constellation.png": "/static/media/constellation.1c25b22383005feac704.png",
+    "static/media/MyMove1.png": "/static/media/MyMove1.bd4a909d407f1ca477e6.png",
+    "static/media/Fave1.png": "/static/media/Fave1.672cffce5ff9bacaefc4.png",
+    "static/media/times.png": "/static/media/times.d5630042af7a7b3fc834.png",
+    "static/media/MyMove3.png": "/static/media/MyMove3.bd070c30c4158011ad79.png",
+    "static/media/times2.png": "/static/media/times2.0753d3d27b2e0d518fae.png",
+    "static/media/Fave3.png": "/static/media/Fave3.3d85f9db7b884eddb06e.png",
+    "static/media/Api2.png": "/static/media/Api2.7b4a264ef1ce18c74319.png",
+    "static/media/Zest2.png": "/static/media/Zest2.f266bfe4606d8412b543.png",
+    "static/media/Meet2.png": "/static/media/Meet2.a7e49d147fd3b8e76bf0.png",
+    "static/media/Poke2.png": "/static/media/Poke2.aec7226a889751f24d3e.png",
+    "static/media/Zest3.png": "/static/media/Zest3.e1037bd35e4c47f10d04.png",
+    "static/media/Api3.png": "/static/media/Api3.afc5373f07ffc1bba801.png",
+    "static/media/Zest1.jpg": "/static/media/Zest1.1d7ae15aa1b8df163b7a.jpg",
+    "static/media/Poke1.png": "/static/media/Poke1.cc259fe4174fcbb5b649.png",
+    "static/media/Poke3.png": "/static/media/Poke3.efc888356b961d824f2d.png",
+    "static/media/Api1.png": "/static/media/Api1.73b5491606bd22f5e1fa.png",
+    "static/media/Zest.png": "/static/media/Zest.de0e2f564561f142ae90.png",
+    "static/media/Meet1.png": "/static/media/Meet1.6acb0544fbf25d32d7e7.png",
+    "static/media/Poke.png": "/static/media/Poke.9c27dd374c0e6dc88687.png",
+    "static/media/MyMove2.png": "/static/media/MyMove2.b80c14496016d980fc2f.png",
+    "static/media/MyMove.png": "/static/media/MyMove.594d6f93ec4d3f066c6e.png",
+    "static/media/rocket-spaceship.png": "/static/media/rocket-spaceship.827f0b1c0d93006a05d1.png",
+    "static/media/star.png": "/static/media/star.85382479174aa76eadf2.png",
+    "static/media/Meet3.png": "/static/media/Meet3.3d5f63adf4666335dec9.png",
+    "static/media/Api.png": "/static/media/Api.666b5581583c47e7b717.png",
+    "static/media/Meet.png": "/static/media/Meet.aa9649c4f22cdc1d1bed.png",
+    "static/media/Fave.png": "/static/media/Fave.5266cb32e5bc726ab3d8.png",
+    "index.html": "/index.html",
+    "main.de27e1b9.css.map": "/static/css/main.de27e1b9.css.map",
+    "main.7dfab7dc.js.map": "/static/js/main.7dfab7dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de27e1b9.css",
+    "static/js/main.7dfab7dc.js"
+  ]
+}
